@@ -233,7 +233,9 @@ h3 {
   text-align: center;
   animation: floatQuote 6s ease-in-out infinite alternate;
   background: linear-gradient(90deg, var(--primary-color), var(-- secondary-color));
-  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+  
+  
   -webkit-text-fill-color: transparent;
   opacity: 0.08; /* keep it subtle */
 }
