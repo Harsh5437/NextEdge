@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NextEdge Web Studio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="images/logoOption1.png">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 </head>
+
 <body>
 
   <!-- ===================== HEADER / NAVBAR ===================== -->
@@ -19,7 +22,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
-         <li><a href="#contact" class="quote-btn">Get Your Free Quote</a></li>
+        <li><a href="quote.html" class="quote-btn" target="_blank">Get Your Free Quote</a></li>
       </ul>
       <div class="hamburger">
         <span></span>
@@ -29,149 +32,93 @@
     </nav>
   </header>
 
-  
   <!-- ===================== HERO SECTION ===================== -->
   <section class="hero" id="hero">
     <canvas id="heroCanvas"></canvas>
     <div class="hero-content" data-aos="fade-up">
       <h2>More Than <span class="highlight">Websites</span>. We Build Digital Authority.</h2>
       <p>Our team blends design, technology, and strategy to create websites that don’t just look good — they make your brand a leader online.</p>
-      <a href="#contact" class="btn">Make Your First Website</a>
+      <a href="quote.html" class="btn" target="_blank">Make Your First Website</a>
     </div>
   </section>
 
-
- 
   <!-- ===================== ABOUT SECTION ===================== -->
   <section id="about" data-aos="fade-up">
     <canvas id="aboutCanvas"></canvas>
-
-    <!-- Background Quote -->
-    <div class="about-quote">
-      <span>We Are More Than a Team.</span><br>
-      <span>We Are Your Partners in Growth.</span>
-    </div>
-
+    <div class="about-quote">We Are More Than a Team<br>We Are Your Partners in Growth</div>
     <div class="about-content" data-aos="zoom-in">
-      <h2>About Us</h2>
-      <p>
-        At NextEdge, our story is a journey. We are a team of passionate creators and strategists 
-        who believe that a website should be more than a digital brochure. It should be a vehicle 
-        for your business’s growth and a true reflection of your values.
-      </p>
-      <p>
-        We're here to help you navigate the digital world and build something great together. 
-        We put our people and purpose first, because your success is our mission.
-      </p>
+      <h2>Who We Are</h2>
+      <p>At NextEdge, our story is a journey. We are a team of passionate creators and strategists who believe that a website should be more than a digital brochure. It should be a vehicle for your business's growth and a true reflection of your values.</p>
+      <p>We put our people and purpose first because your success is our mission. Our goal is to craft responsive, high-performance websites and digital solutions tailored to your business's unique needs.</p>
+    </div>
+    <div class="contact-stats">
+      <div class="stat">
+        <span class="count" data-target="50">0</span>+ Websites Built</div>
+      <div class="stat"><span class="count" data-target="30">0</span>+ Happy Clients</div>
+      <div class="stat"><span class="count" data-target="3">0</span>+Years Experience</div>
     </div>
   </section>
 
-
-
   <!-- ===================== SERVICES SECTION ===================== -->
-  <section id="contact" data-aos="fade-up" data-aos-duration="1200">
+  <section id="services" class="services-section" data-aos="fade-up" data-aos-duration="1200">
+    <h2>Our Services</h2>
+    <h3 class="services-subtitle">Focused on Your Success</h3>
+    <p>Tailored web solutions for businesses starting fresh or elevating their existing sites.</p>
+    <div class="services-grid">
+      <div class="service-card new-web">
+        <h3>New Website Development</h3>
+        <ul>
+          <li>Custom responsive design for all devices</li>
+          <li>SEO-friendly and performance optimized</li>
+          <li>Modern tech stack & scalable architecture</li>
+          <li>Easy-to-manage CMS integration</li>
+        </ul>
+        <a href="#contact" class="btn">Get Your Website Built</a>
+      </div>
+      <div class="service-card upgrade-web">
+        <h3>Website Upgrade & Redesign</h3>
+        <ul>
+          <li>Revamp visuals to contemporary standards</li>
+          <li>Improve site speed & mobile usability</li>
+          <li>Add new features & functionalities</li>
+          <li>SEO audit and optimization</li>
+        </ul>
+        <a href="#contact" class="btn">Request a Website Upgrade</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section id="contact" data-aos="fade-up">
     <canvas id="contactCanvas"></canvas>
     <div class="contact-content">
-
       <h2>Let's Grow Your Brand</h2>
       <p>We provide the following services to help your business stand out online:</p>
-
-      <!-- Services Grid -->
       <div class="contact-services">
-        <div class="service-item" data-aos="fade-up" data-aos-delay="100">
-          <i class="fas fa-laptop-code"></i>
-          Custom Web Design
-        </div>
-        <div class="service-item" data-aos="fade-up" data-aos-delay="200">
-          <i class="fas fa-paint-brush"></i>
-          Branding Services
-        </div>
-        <div class="service-item" data-aos="fade-up" data-aos-delay="300">
-          <i class="fas fa-shopping-cart"></i>
-          eCommerce Design
-        </div>
-        <div class="service-item" data-aos="fade-up" data-aos-delay="400">
-          <i class="fas fa-store"></i>
-          Shopify Website Design
-        </div>
-        <div class="service-item" data-aos="fade-up" data-aos-delay="500">
-          <i class="fas fa-wordpress"></i>
-          WordPress Web Design
-        </div>
-        <div class="service-item" data-aos="fade-up" data-aos-delay="600">
-          <i class="fas fa-bullhorn"></i>
-          Digital Marketing
-        </div>
+        <div class="service-item"><i class="fas fa-laptop-code"></i> Custom Web Design</div>
+        <div class="service-item"><i class="fas fa-paint-brush"></i> Branding Services</div>
+        <div class="service-item"><i class="fas fa-shopping-cart"></i> eCommerce Design</div>
+        <div class="service-item"><i class="fas fa-store"></i> Shopify Website Design</div>
+        <div class="service-item"><i class="fas fa-wordpress"></i> WordPress Web Design</div>
+        <div class="service-item"><i class="fas fa-bullhorn"></i> Digital Marketing</div>
       </div>
+      <div class="contact-stats">
+        <div class="stat">
+          <span class="count" data-target="50">0</span>+ Websites Built</div>
+        <div class="stat"><span class="count" data-target="30">0</span>+ Happy Clients</div>
+        <div class="stat"><span class="count" data-target="3">0</span>+Years Experience</div>
+      </div>
+      <a href="#contact-form" class="btn quote-btn">Get Your Free Quote</a>
+      <div class="contact-info">
+        <p>Email: contact@nextedge.com</p>
+        <p>Phone: +91 84294 66002</p>
+      </div>
+    </div>
+  </section>
 
-
-
-
-      <!-- Services Section -->
-      <section id="services" class="services-section" data-aos="fade-up" data-aos-duration="1200">
-        <h2>Our Services</h2>
-        <h3 class="services-subtitle">Focused on Your Success</h3>
-        <p>Tailored web solutions for businesses starting fresh or elevating their existing sites.</p>
-
-        <div class="services-grid">
-          <!-- New Website Development -->
-          <div class="service-card new-web">
-            <h3>New Website Development</h3>
-            <ul>
-              <li>Custom responsive design for all devices</li>
-              <li>SEO-friendly and performance optimized</li>
-              <li>Modern tech stack & scalable architecture</li>
-              <li>Easy-to-manage CMS integration</li>
-            </ul>
-            <a href="#contact" class="btn">Get Your Website Built</a>
-          </div>
-
-          <!-- Website Upgrade & Redesign -->
-          <div class="service-card upgrade-web">
-            <h3>Website Upgrade & Redesign</h3>
-            <ul>
-              <li>Revamp visuals to contemporary standards</li>
-              <li>Improve site speed & mobile usability</li>
-              <li>Add new features & functionalities</li>
-              <li>SEO audit and optimization</li>
-            </ul>
-            <a href="#contact" class="btn">Request a Website Upgrade</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- ===================== CONTACT SECTION ===================== -->
-      <section id="contact" data-aos="fade-up">
-        <canvas id="contactCanvas"></canvas>
-        <div class="contact-content">
-          <h2>Let's Grow Your Brand</h2>
-          <p>We provide the following services to help your business stand out online:</p>
-
-          <div class="contact-services">
-            <div class="service-item"><i class="fas fa-laptop-code"></i> Custom Web Design</div>
-            <div class="service-item"><i class="fas fa-paint-brush"></i> Branding Services</div>
-            <div class="service-item"><i class="fas fa-shopping-cart"></i> eCommerce Design</div>
-            <div class="service-item"><i class="fas fa-store"></i> Shopify Website Design</div>
-            <div class="service-item"><i class="fas fa-wordpress"></i> WordPress Web Design</div>
-            <div class="service-item"><i class="fas fa-bullhorn"></i> Digital Marketing</div>
-          </div>
-
-          <div class="contact-stats">
-            <div><strong>50+</strong> Websites Launched</div>
-            <div><strong>30+</strong> Happy Clients</div>
-            <div><strong>5+</strong> Years Experience</div>
-          </div>
-
-          <a href="#contact-form" class="btn">Get Your Free Quote</a>
-
-          <div class="contact-info">
-            <p>Email: contact@nextedge.com</p>
-            <p>Phone: +91 84294 66002</p>
-          </div>
-        </div>
-      </section> 
-
+  <!-- ===================== SCRIPTS ===================== -->
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>

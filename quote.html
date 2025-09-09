@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Your Free Quote | NextEdge</title>
+  <link rel="icon" type="image/png" href="images/logoOption1.png"/>
+  <link rel="stylesheet" href="style.css"> <!-- reuse existing styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo"><span class="next">Next</span><span class="edge">Edge</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="quote.html" class="quote-btn active">Get Your Free Quote</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Landing Page / Quote Form -->
+  <section class="landing-quote">
+    <div class="landing-content">
+      <h1>Get Your Free Website Quote</h1>
+      <p>Fill in the details below, and we’ll get back to you with a custom quote.</p>
+
+      <form id="quoteForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="text" name="company" placeholder="Company / Brand Name">
+        <textarea name="requirements" placeholder="Describe your project..." required></textarea>
+        <button type="submit" class="quote-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
